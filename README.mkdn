@@ -1,0 +1,27 @@
+C-c fhqwhgads? What could be simpler to remember? I don't get why people hate Emacs keybindings
+===============================================================================================
+
+Born of a joke by a work colleague muttering about Emacs keybindings,
+I suggested that fhqwhgads was a perfectly reasonable keybinding to
+remember and didn't see the problem he had with it.
+
+Sometimes you should just leave a joke where it stands, but not I.
+
+Setup
+-----
+
+Install emacs-fhqwhgadse.el into your Emacs path, `~/.emacs/site-lisp/`
+or somewhere, then add these lines to your startup file (`~/.emacs` probably):
+
+```
+(require 'fhqwhgads)
+(global-set-key "\C-cfhqwhgads" 'fhqwhgads)
+(global-set-key "\C-cofhqwhgads" 'fhqwhgads-browse)
+```
+
+Then bask in the glory of being able to type `ctrl-c f h q w h g a d s` to
+have Emacs sing to you, or `ctrl-c o f h q w h g a d s` to visit the original
+in all its Flash glory.
+
+There's some config options if you want to tune stuff, but why would you want
+to?  Look at the source if you want to see. :)

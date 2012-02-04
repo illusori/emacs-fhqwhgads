@@ -6,7 +6,7 @@
 ;; Maintainer : Sam Graham <libfhqwhgads-emacs BLAHBLAH illusori.co.uk>
 ;; Created    : 3rd February 2012
 ;; Modified   : 3rd February 2012
-;; Version    : 1.0.1
+;; Version    : 1.0.2
 ;; Keywords   : fun homestarrunner strongbad fhqwhgads
 ;;
 ;; This program is free software: you can redistribute it and/or modify
